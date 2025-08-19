@@ -1,7 +1,7 @@
 body {
   text-align: center;
   background-color: #e3f2fd;
-  animation: blueShift 10s infinite alternate ease-in-out;
+  animation: bgAnimation 10s infinite alternate ease-in-out;
 }
 
 h1 {
@@ -12,10 +12,10 @@ p {
   font-size: 25px;
 }
 
-@keyframes blueShift {
-  0%   { background-color: #e3f2fd; }
-  25%  { background-color: #bbdefb; }
-  50%  { background-color: #90caf9; }
-  75%  { background-color: #42a5f5; }
-  100% { background-color: #2196f3; }
+@keyframes bgAnimation {
+  0%   { background-color: #abcbe3; }
+  25%  { background-color: #96c6ee; }
+  50%  { background-color: #8dbce2; }
+  75%  { background-color: #54acf4; }
+  100% { background-color: #40a3f1; }
 }
