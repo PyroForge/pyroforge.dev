@@ -1,10 +1,21 @@
 body {
   text-align: center;
   background-color: #e3f2fd;
+  animation: blueShift 10s infinite alternate ease-in-out;
 }
+
 h1 {
   font-size: 35px;
 }
+
 p {
   font-size: 25px;
+}
+
+@keyframes blueShift {
+  0%   { background-color: #e3f2fd; }
+  25%  { background-color: #bbdefb; }
+  50%  { background-color: #90caf9; }
+  75%  { background-color: #42a5f5; }
+  100% { background-color: #2196f3; }
 }
