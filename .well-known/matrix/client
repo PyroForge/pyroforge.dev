@@ -4,8 +4,5 @@
   },
   "m.identity_server": {
     "base_url": "https://vector.im"
-  },
-  "m.rtc_transport": {
-    "base_url": "https://livekit.pyroforge.dev"
   }
 }
