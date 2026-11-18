@@ -13,6 +13,8 @@ h1 {
   font-size: 35px;
   margin-top: 20px;
   margin-bottom: 0;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
 }
 
 p {
@@ -23,10 +25,12 @@ p {
   justify-content: center;
   align-items: center;
   margin: 0;
+  font-family: "Ubuntu Mono", monospace;
 }
 
 footer {
   padding: 20px 0;
+  font-family: "Ubuntu Mono", monospace;
 }
 
 @keyframes bgAnimation {
