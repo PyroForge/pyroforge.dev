@@ -4,6 +4,8 @@ body {
   animation: bgAnimation 10s infinite alternate ease-in-out;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -29,8 +31,18 @@ p {
 }
 
 footer {
-  padding: 20px 0;
+  margin-top: 4vh;
+  padding: 5px 0;
   font-family: "Ubuntu Mono", monospace;
+}
+
+.main {
+  background-color: rgb(49 133 197 / 0.45);
+  border-radius: 20px;
+  color: #bee4ff;
+  padding: 30px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 @keyframes bgAnimation {
