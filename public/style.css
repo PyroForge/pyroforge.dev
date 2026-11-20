@@ -31,8 +31,6 @@ p {
 }
 
 footer {
-  margin-top: 4vh;
-  padding: 5px 0;
   font-family: "Ubuntu Mono", monospace;
 }
 
@@ -43,6 +41,13 @@ footer {
   padding: 30px;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
+}
+
+.left {
+  text-align: left;
+}
+.big {
+  font-weight: 700;
 }
 
 @keyframes bgAnimation {
